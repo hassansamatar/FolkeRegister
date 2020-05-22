@@ -4,17 +4,6 @@
     <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,6 +204,7 @@
       <workItem from="1590131143018" duration="9494000" />
       <workItem from="1590141630828" duration="465000" />
       <workItem from="1590144285951" duration="1861000" />
+      <workItem from="1590146939697" duration="806000" />
     </task>
     <servers />
   </component>
@@ -274,10 +264,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="420" y="105" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980822325" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590144297244">
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590146941765">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590144297244" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590146941765" />
     <state x="422" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589982003063" />
     <state x="175" y="147" key="new project wizard" timestamp="1589967323280">
       <screen x="0" y="23" width="1440" height="877" />
