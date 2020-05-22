@@ -113,6 +113,8 @@ public class Person implements Serializable {
         s.writeInt(getDay());
         s.writeInt(getMonth());
         s.writeInt(getYear());
+        s.writeObject(getGender());
+        s.writeObject(getFodselsnummer());
         s.writeUTF(getEmail());
         s.writeUTF(getPhone());
     }
@@ -123,6 +125,8 @@ public class Person implements Serializable {
         int day = s.readInt();
         int month = s.readInt();
         int year = s.readInt();
+        String gender = s.readUTF();
+        String fodselsnummer = s.readUTF();
         String email = s.readUTF();
         String phone = s.readUTF();
         this.name = new SimpleStringProperty();
@@ -137,6 +141,8 @@ public class Person implements Serializable {
         setDay(day);
         setMonth(month);
         setYear(year);
+        setGender(gender);
+        setFodselsnummer(fodselsnummer);
         setEmail(email);
         setPhone(phone);
     }

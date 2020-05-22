@@ -36,12 +36,12 @@
             <PropertyValueFactory property="name" />
           </cellValueFactory>
         </TableColumn>
-        <TableColumn  prefWidth="30.0" text="Age">
+        <TableColumn  prefWidth="60.0" text="Age">
           <cellValueFactory>
             <PropertyValueFactory property="age" />
           </cellValueFactory>
         </TableColumn>
-        <TableColumn   prefWidth="30.0" text="Day" fx:id="dayId">
+        <TableColumn   prefWidth="60.0" text="Day" fx:id="dayId">
           <cellValueFactory>
             <PropertyValueFactory property="day" />
           </cellValueFactory>

@@ -27,8 +27,8 @@ public class PersonRegister {
     }
     public ObservableList<Person> loadTestData() {
        people.clear();
-        people.add(new Person("Hassan",30,15,12,1992,"m","15129278121","hassan@gmail.com","44 44 44 44"));
-        people.add(new Person("Suahib",9,02,05,2010,"f","02051092213","susa@gmail.com","66 44 44 44"));
+        people.add(new Person("Hassan",30,15,12,1989,"m","15128978121","hassan@gmail.com","44 44 44 44"));
+        people.add(new Person("Kari",9,02,05,2010,"f","02051092213","susa@gmail.com","66 44 44 44"));
        // people.add(new Person("Hassan",30,15,9,1892,"hassan@gmail.com","44 44 44 44"));
         return people;
     }

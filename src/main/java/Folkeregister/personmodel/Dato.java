@@ -26,7 +26,7 @@ public class Dato implements DateValidator {
         try {
             this.dateFormater.parse(innFodselsdato);
         }catch (DateTimeParseException e){
-            throw new InvalidDateException("<<Ugyldig fødselsdato! >>");
+            throw new InvalidDateException("Ugyldig fødselsdato! ");
         }
         return true;
     } //end isValidDate()

@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="" />
+    <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -41,6 +58,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -195,6 +213,8 @@
       <workItem from="1590096239948" duration="1344000" />
       <workItem from="1590112885619" duration="4371000" />
       <workItem from="1590131143018" duration="9494000" />
+      <workItem from="1590141630828" duration="465000" />
+      <workItem from="1590144285951" duration="1861000" />
     </task>
     <servers />
   </component>
@@ -230,34 +250,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589987984803" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1590140652699">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1590146149677">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590140652699" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590146149677" />
     <state width="1351" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589982075846" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1590140652698">
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1590146149677">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590140652698" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590146149677" />
     <state width="1351" height="218" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589982075843" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1590140652698">
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1590146149676">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590140652698" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590146149676" />
     <state width="1351" height="218" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589982075837" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1590140652699">
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1590146149677">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590140652699" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590146149677" />
     <state width="1351" height="218" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589982075844" />
     <state x="420" y="105" key="Maven.ArtifactSearchDialog" timestamp="1589980822325">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="420" y="105" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980822325" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590112888937">
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590144297244">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590112888937" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590144297244" />
     <state x="422" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589982003063" />
     <state x="175" y="147" key="new project wizard" timestamp="1589967323280">
       <screen x="0" y="23" width="1440" height="877" />
