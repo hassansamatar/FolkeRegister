@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" spacing="10.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="Folkeregister.personmodel.controllers.MainController">
+  <children>
+    <HBox>
+      <children>
+        <MenuBar prefHeight="-1.0" prefWidth="-1.0">
+          <menus>
+            <Menu mnemonicParsing="false" text="File">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#openFileClicked" text="Open" fx:id="opeFileId" />
+                <MenuItem mnemonicParsing="false" onAction="#SaveFileCliked" text="Save" fx:id="saveFileId" />
+              </items>
+            </Menu>
+          </menus>
+        </MenuBar>
+      </children>
+    </HBox>
+    <HBox alignment="TOP_RIGHT">
+      <children>
+        <Button mnemonicParsing="false" onAction="#Register" text="Register" />
+        <Button mnemonicParsing="false" onAction="#Delete" text="Delete" />
+      </children>
+    </HBox>
+    <TableView fx:id="personTableView" prefHeight="-1.0" prefWidth="-1.0">
+      <columns>
+        <TableColumn  prefWidth="120" text="Name">
+          <cellValueFactory>
+            <PropertyValueFactory property="name" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn  prefWidth="30.0" text="Age">
+          <cellValueFactory>
+            <PropertyValueFactory property="age" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn   prefWidth="30.0" text="Day" fx:id="dayId">
+          <cellValueFactory>
+            <PropertyValueFactory property="day" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn  prefWidth="60.0" text="Month" fx:id="monthId">
+          <cellValueFactory>
+            <PropertyValueFactory property="month" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn   prefWidth="60.0" text="Year" fx:id="yearId">
+          <cellValueFactory>
+            <PropertyValueFactory property="year" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn  prefWidth="60.0" text="Gender">
+          <cellValueFactory>
+            <PropertyValueFactory property="gender" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn  prefWidth="100.0" text="Fodselsnummer">
+          <cellValueFactory>
+            <PropertyValueFactory property="fodselsnummer" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn  prefWidth="90.0" text="Email">
+          <cellValueFactory>
+            <PropertyValueFactory property="email" />
+          </cellValueFactory>
+        </TableColumn>
+        <TableColumn  prefWidth="75.0" text="Phone">
+          <cellValueFactory>
+            <PropertyValueFactory property="phone" />
+          </cellValueFactory>
+        </TableColumn>
+      </columns>
+    </TableView>
+  </children>
+</VBox>
