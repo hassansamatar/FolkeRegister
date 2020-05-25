@@ -31,7 +31,10 @@
     </HBox>
     <TableView fx:id="personTableView" prefHeight="-1.0" prefWidth="-1.0">
       <columns>
-        <TableColumn  prefWidth="120" text="Name">
+        <TableColumn onEditCommit="#updateName"  prefWidth="120" text="Name">
+          <cellFactory>
+            <TextFieldTableCell fx:factory="forTableColumn" />
+          </cellFactory>
           <cellValueFactory>
             <PropertyValueFactory property="name" />
           </cellValueFactory>
@@ -56,7 +59,10 @@
             <PropertyValueFactory property="year" />
           </cellValueFactory>
         </TableColumn>
-        <TableColumn  prefWidth="60.0" text="Gender">
+        <TableColumn onEditCommit="#updateGender" prefWidth="60.0" text="Gender">
+          <cellFactory>
+            <TextFieldTableCell fx:factory="forTableColumn" />
+          </cellFactory>
           <cellValueFactory>
             <PropertyValueFactory property="gender" />
           </cellValueFactory>
@@ -66,12 +72,18 @@
             <PropertyValueFactory property="fodselsnummer" />
           </cellValueFactory>
         </TableColumn>
-        <TableColumn  prefWidth="90.0" text="Email">
+        <TableColumn onEditCommit="#updateEmail" prefWidth="90.0" text="Email">
+          <cellFactory>
+            <TextFieldTableCell fx:factory="forTableColumn" />
+          </cellFactory>
           <cellValueFactory>
             <PropertyValueFactory property="email" />
           </cellValueFactory>
         </TableColumn>
-        <TableColumn  prefWidth="75.0" text="Phone">
+        <TableColumn onEditCommit="#updatePhone" prefWidth="75.0" text="Phone">
+          <cellFactory>
+            <TextFieldTableCell fx:factory="forTableColumn" />
+          </cellFactory>
           <cellValueFactory>
             <PropertyValueFactory property="phone" />
           </cellValueFactory>

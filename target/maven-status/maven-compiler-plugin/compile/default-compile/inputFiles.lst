@@ -1,6 +1,5 @@
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\IO\FileSaverJobj.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\Person.java
-C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\PersonNumberGenerator.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\App.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\FileManager.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\gui\Dialogs.java
@@ -9,6 +8,7 @@ C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregiste
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\PersonRegister.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\module-info.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\exceptions\InvalidEmailException.java
+C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\FodselsnummerManager.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\Dato.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\exceptions\InvalidGenderException.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\IO\FileSaverCsv.java
@@ -19,6 +19,7 @@ C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregiste
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\IO\FileThread.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\controllers\MainController.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\exceptions\InvalidNameException.java
+C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\FodselsnummerManager2.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\controllers\RegisterController.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\DateValidator.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\IO\FileSaver.java

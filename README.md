@@ -24,7 +24,9 @@ born 1940-1999: also allocated from series 999-900
 
 born 2000-2039: allocated from series 999-500
 #Example
+
 Day	Month	Year	Individual number	Control digits
+
 01	12	99	551	31
  
 

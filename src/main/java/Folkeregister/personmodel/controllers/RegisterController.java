@@ -1,20 +1,14 @@
 package Folkeregister.personmodel.controllers;
 
-import Folkeregister.App;
 import Folkeregister.personmodel.*;
 import Folkeregister.personmodel.exceptions.*;
-import javafx.animation.FadeTransition;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
-import javafx.scene.control.ComboBox;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-import javafx.util.Duration;
 
 import java.io.IOException;
 import java.time.format.DateTimeFormatter;
-import java.util.ArrayList;
-import java.util.List;
 
 public class RegisterController {
     private PersonRegister model;
@@ -38,11 +32,11 @@ public class RegisterController {
             PersonValidator.isValidTelefon(telefon);
             int year = dato.getYear(dOfBirth);
             int month = dato.getMonth(dOfBirth);
-            System.out.println("month: "+month);
             int alder = dato.getAlder(dOfBirth);
             int day = dato.getDay(dOfBirth);
-            String fodselsnummer =PersonNumberGenerator.getPersonnummer(day,month,year,gender);
-            System.out.println(fodselsnummer);
+            String fodselsnummer = FodselsnummerManager2.getPersonnummer(day,month,year,gender);
+           // String fodselsnummer = FodselsnummerManager.getPersonnummer(day,month,year,gender);
+            System.out.println("Fodselsnummer: "+fodselsnummer);
             Person person = new Person(name,alder,day,month,year,gender,fodselsnummer,epost,telefon);
             System.out.println(person.toString());
             model.add(person);

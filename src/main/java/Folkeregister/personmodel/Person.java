@@ -1,4 +1,7 @@
 package Folkeregister.personmodel;
+import Folkeregister.personmodel.exceptions.InvalidEmailException;
+import Folkeregister.personmodel.exceptions.InvalidGenderException;
+import Folkeregister.personmodel.exceptions.InvalidNameException;
 import javafx.beans.property.SimpleIntegerProperty;
 import javafx.beans.property.SimpleStringProperty;
 import java.io.IOException;
@@ -33,6 +36,9 @@ public class Person implements Serializable {
     }
 
     public void setName(String name) {
+        if(!PersonValidator.isValidNavn(name)){
+            throw new InvalidNameException("Invalid name");
+        }
         this.name.set(name);
     }
 
@@ -48,22 +54,18 @@ public class Person implements Serializable {
     public int getDay() {
         return day.getValue();
     }
-
     public void setDay(int day) {
         this.day.set(day);
     }
     public int getMonth() {
         return month.getValue();
     }
-
     public void setMonth(int month) {
         this.month.set(month);
     }
-
     public int getYear() {
         return year.getValue();
     }
-
     public void setYear(int year) {
         this.year.set(year);
     }
@@ -71,6 +73,9 @@ public class Person implements Serializable {
         return gender.getValue();
     }
     public void setGender(String gender) {
+        if(!PersonValidator.isValidGender(gender)){
+            throw new InvalidGenderException("Invalid Gender!");
+        }
         this.gender.set(gender);
     }
     public String getFodselsnummer() {
@@ -79,23 +84,22 @@ public class Person implements Serializable {
     public void setFodselsnummer(String fodselsnummer) {
         this.fodselsnummer.set(fodselsnummer);
     }
-
-
     public String getEmail() {
         return email.getValue();
     }
-
     public void setEmail(String email) {
+        if(!PersonValidator.isValidEpost(email)){
+            throw new InvalidEmailException("Invalid Epost!");
+        }
         this.email.set(email);
     }
-
     public String getPhone() {
         return phone.getValue();
     }
-
     public void setPhone(String phone) {
-
-
+        if(!PersonValidator.isValidTelefon(phone)){
+            throw new InvalidNameException("Invalid Telefon!");
+        }
         this.phone.set(phone);
     }
 

@@ -7,6 +7,7 @@ Folkeregister\personmodel\DateValidator.class
 module-info.class
 Folkeregister\personmodel\controllers\RegisterController.class
 Folkeregister\personmodel\exceptions\InvalidAgeException.class
+Folkeregister\personmodel\FodselsnummerManager2.class
 Folkeregister\personmodel\Person.class
 Folkeregister\personmodel\controllers\MainController.class
 Folkeregister\personmodel\Dato.class
@@ -20,9 +21,9 @@ Folkeregister\personmodel\IO\FileThread.class
 Folkeregister\personmodel\IO\FileSaverCsv.class
 Folkeregister\personmodel\exceptions\InvalidTelephoneException.class
 Folkeregister\personmodel\IO\FileOpener.class
+Folkeregister\personmodel\FodselsnummerManager.class
 Folkeregister\personmodel\IO\FileOpenerCsv.class
 Folkeregister\personmodel\exceptions\InvalidEmailException.class
-Folkeregister\personmodel\PersonNumberGenerator.class
 Folkeregister\personmodel\controllers\SecondaryController.class
 Folkeregister\personmodel\PersonValidator.class
 Folkeregister\App.class
