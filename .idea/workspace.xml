@@ -3,22 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonNumberGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New Rich Text Document.rtf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -228,6 +214,7 @@
       <workItem from="1590342029063" duration="1961000" />
       <workItem from="1590391802047" duration="7118000" />
       <workItem from="1590400594706" duration="4697000" />
+      <workItem from="1590464665250" duration="4473000" />
     </task>
     <servers />
   </component>
@@ -263,34 +250,34 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590224940077" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1590405301534">
+    <state width="1237" height="184" key="GridCell.Tab.0.bottom" timestamp="1590484522351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590405301534" />
+    <state width="1237" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590484522351" />
     <state width="1351" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589982075846" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1590405301534">
+    <state width="1237" height="184" key="GridCell.Tab.0.center" timestamp="1590484522351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590405301534" />
+    <state width="1237" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590484522351" />
     <state width="1351" height="218" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589982075843" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1590405301534">
+    <state width="1237" height="184" key="GridCell.Tab.0.left" timestamp="1590484522350">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590405301534" />
+    <state width="1237" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590484522350" />
     <state width="1351" height="218" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589982075837" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1590405301534">
+    <state width="1237" height="184" key="GridCell.Tab.0.right" timestamp="1590484522351">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590405301534" />
+    <state width="1237" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590484522351" />
     <state width="1351" height="218" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589982075844" />
     <state x="420" y="105" key="Maven.ArtifactSearchDialog" timestamp="1589980822325">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="420" y="105" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980822325" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590400597065">
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590464668894">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590400597065" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590464668894" />
     <state x="422" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589982003063" />
     <state x="175" y="147" key="new project wizard" timestamp="1589967323280">
       <screen x="0" y="23" width="1440" height="877" />
