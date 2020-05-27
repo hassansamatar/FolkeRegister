@@ -11,7 +11,7 @@ public class FileManager {
      public   static void saveFileUser(Stage stage, PersonRegister data)  {
         FileChooser fileChooser = new FileChooser();
         fileChooser.setTitle("Choose a file format");
-        fileChooser.getExtensionFilters().add(
+        fileChooser.getExtensionFilters().addAll(
                 new FileChooser.ExtensionFilter("Text Files", "*.csv"));
         File selectedFile = fileChooser.showSaveDialog(stage);
         if (selectedFile == null) {

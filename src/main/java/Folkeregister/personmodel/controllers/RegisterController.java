@@ -1,30 +1,26 @@
 package Folkeregister.personmodel.controllers;
-
 import Folkeregister.personmodel.*;
 import Folkeregister.personmodel.exceptions.*;
+import Folkeregister.personmodel.gui.Dialogs;
 import javafx.event.ActionEvent;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
-
 import java.io.IOException;
 import java.time.format.DateTimeFormatter;
-
 public class RegisterController {
     private PersonRegister model;
-    public TextField txtName,txtGender,txtEpost,txtTelefon,txtDateOfBirth;
-    public Label lblNameError,lblGenderError,lblEpostError,lblTelefonError,lblDateError;
-
+    public TextField txtName, txtGender, txtEpost, txtTelefon, txtDateOfBirth;
+    public Label lblNameError, lblGenderError, lblEpostError, lblTelefonError, lblDateError;
     DateTimeFormatter dateTimeFormatter = DateTimeFormatter.BASIC_ISO_DATE;
-    Dato dato =  new Dato(dateTimeFormatter);
-
+    Dato dato = new Dato(dateTimeFormatter);
     public void registerPerson(ActionEvent event) {
         String name = txtName.getText();
         String gender = txtGender.getText().toLowerCase();
         String epost = txtEpost.getText();
         String telefon = txtTelefon.getText();
-        String dOfBirth = txtDateOfBirth.getText().replace(".","");
-        try{
+        String dOfBirth = txtDateOfBirth.getText().replace(".", "");
+        try {
             PersonValidator.isValidNavn(name);
             PersonValidator.isValidGender(gender);
             dato.isValidDate(dOfBirth);
@@ -34,14 +30,19 @@ public class RegisterController {
             int month = dato.getMonth(dOfBirth);
             int alder = dato.getAlder(dOfBirth);
             int day = dato.getDay(dOfBirth);
-            String fodselsnummer = FodselsnummerManager.getPersonnummer(day,month,year,gender);
-            System.out.println("Fodselsnummer: "+fodselsnummer);
-            Person person = new Person(name,alder,day,month,year,gender,fodselsnummer,epost,telefon);
+            String fodselsnummer = FodselsnummerManager.getPersonnummer(day, month, year, gender);
+            System.out.println("Fodselsnummer: " + fodselsnummer);
+            Person person = new Person(name, alder, day, month, year, gender, fodselsnummer, epost, telefon);
             System.out.println(person.toString());
             model.add(person);
             hide(event);
 
-        } catch (InvalidNameException e){
+        } catch (InvalidNameException | InvalidGenderException | InvalidDateException | InvalidAgeException |
+                InvalidEmailException | InvalidTelephoneException e) {
+            Dialogs.showErrorDialog(e.getMessage());
+
+        }
+        /* catch (InvalidNameException e){
 
             lblNameError.setText(e.getMessage());
         }catch (InvalidGenderException e){
@@ -58,26 +59,20 @@ public class RegisterController {
         }
         catch (InvalidDateException e){
             lblDateError.setText(e.getMessage());
-        }
+        }*/
 
 
     }
 
     public void cancel(ActionEvent event) throws IOException {
-
         //App.setRoot("main");
-    hide(event);
+        hide(event);
     }
-
     private void hide(ActionEvent event) {
-        ((Button)event.getSource()).getScene().getWindow().hide();
+        ((Button) event.getSource()).getScene().getWindow().hide();
     }
-    public void setModel(PersonRegister model){
+    public void setModel(PersonRegister model) {
         this.model = model;
     }
-
-
-
-
 
 }

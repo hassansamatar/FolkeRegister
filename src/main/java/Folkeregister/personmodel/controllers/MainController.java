@@ -23,11 +23,11 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Optional;
 
-public class MainController  {
+public class MainController {
 
     @FXML
     private TableView<Person> personTableView;
-    private  final PersonRegister personRegister = new PersonRegister();
+    private final PersonRegister personRegister = new PersonRegister();
 
     public void initialize() {
         personTableView.setEditable(true);
@@ -35,10 +35,13 @@ public class MainController  {
         personRegister.loadTestData();
         FodselsnummerManager.updateIndividualNumbersTakenList();
     }
+
     Stage s;
+
     private void updatePersonList() {
         personRegister.attachTableView(personTableView);
     }
+
     public void helloClicked(ActionEvent event) {
     }
 
@@ -46,12 +49,13 @@ public class MainController  {
     }
 
     public void SaveFileCliked(ActionEvent event) {
-        FileManager.saveFileUser(s,personRegister);
+        FileManager.saveFileUser(s, personRegister);
 
     }
+
     public void Register(ActionEvent event) throws IOException {
-       //App.setRoot("register");
-       try {
+        //App.setRoot("register");
+        try {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("/Folkeregister/register.fxml"));
             Parent p = fxmlLoader.load();
             RegisterController c = fxmlLoader.getController();
@@ -72,13 +76,14 @@ public class MainController  {
     public void Delete(ActionEvent event) {
         deletePerson();
     }
+
     /*
      * Deleting a row from the list.
      */
-    private void deletePerson(){
+    private void deletePerson() {
         Person selectedPerson = personTableView.getSelectionModel().getSelectedItem();
 
-        if( selectedPerson != null ) {
+        if (selectedPerson != null) {
             Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
             String s = "Are you sure to permanently delete this Person ?";
             alert.setContentText(s);
@@ -87,60 +92,64 @@ public class MainController  {
                 personRegister.remove(selectedPerson);
             }
 
-        }else {
+        } else {
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
             String s = "Please select a row to delete ?";
             alert.setContentText(s);
             alert.showAndWait();
         }
     }
+
     /*
-    * Update name
-     */
-  @FXML
-    public void updateName(TableColumn.CellEditEvent<Person, String> cellEditEvent) {
-      try{
-          cellEditEvent.getRowValue().setName(cellEditEvent.getNewValue());
-      }catch (InvalidNameException e){
-          Dialogs.showErrorDialog(e.getMessage());
-      }
-      personTableView.refresh();
-    }
-    /*
-     * Update email
+     * Update name
      */
     @FXML
-    public void updateEmail(TableColumn.CellEditEvent<Person,String> cellEditEvent) {
-        try{
-            cellEditEvent.getRowValue().setEmail(cellEditEvent.getNewValue());
-        }catch (InvalidEmailException e){
+    public void updateName(TableColumn.CellEditEvent<Person, String> cellEditEvent) {
+        try {
+            cellEditEvent.getRowValue().setName(cellEditEvent.getNewValue());
+        } catch (InvalidNameException e) {
             Dialogs.showErrorDialog(e.getMessage());
         }
         personTableView.refresh();
     }
+
+    /*
+     * Update email
+     */
+    @FXML
+    public void updateEmail(TableColumn.CellEditEvent<Person, String> cellEditEvent) {
+        try {
+            cellEditEvent.getRowValue().setEmail(cellEditEvent.getNewValue());
+        } catch (InvalidEmailException e) {
+            Dialogs.showErrorDialog(e.getMessage());
+        }
+        personTableView.refresh();
+    }
+
     /*
      * Update phone
      */
     @FXML
     public void updatePhone(TableColumn.CellEditEvent<Person, String> cellEditEvent) {
-        try{
+        try {
             cellEditEvent.getRowValue().setPhone(cellEditEvent.getNewValue());
-        }catch (InvalidTelephoneException e){
+        } catch (InvalidTelephoneException e) {
             Dialogs.showErrorDialog(e.getMessage());
         }
         personTableView.refresh();
     }
+
     /*
-    * Update gender
+     * Update gender
      */
     @FXML
-        public void updateGender(TableColumn.CellEditEvent<Person, String> cellEditEvent) {
-        try{
+    public void updateGender(TableColumn.CellEditEvent<Person, String> cellEditEvent) {
+        try {
             cellEditEvent.getRowValue().setGender(cellEditEvent.getNewValue());
-        }catch (InvalidGenderException e){
+        } catch (InvalidGenderException e) {
             Dialogs.showErrorDialog(e.getMessage());
         }
         personTableView.refresh();
 
-        }
+    }
 }

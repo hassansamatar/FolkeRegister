@@ -56,14 +56,14 @@ public class FodselsnummerManager {
         if (n < 10) {
             return ("0" + n);
         }
-
         return ("" + n);
     }
+
     public static String get2DigitBirthYear(int year) {
         return (String.valueOf(year).substring(2));
     }
 
-     public static int individualNumber(int year, String gender) {
+    public static int individualNumber(int year, String gender) {
         int i = 0;
         if (year >= 2000) {
             i = 999;
@@ -127,7 +127,7 @@ public class FodselsnummerManager {
     }
 
     /*
-    * Get check digit 1 (10th of fodselsnummer)
+     * Get check digit 1 (10th of fodselsnummer)
      */
 
     public static int getDigit_10(int dDigit, int mDigit, String yDigit, String individDigit) {
@@ -142,7 +142,6 @@ public class FodselsnummerManager {
                 int b = Character.digit(dd.charAt(i), 10);
                 checkDigitProcessStore.add(b);
             }
-
         }
 
         int m = mDigit;
@@ -168,7 +167,6 @@ public class FodselsnummerManager {
                 checkDigitProcessStore.add(z);
             }
 
-
         }
 
         int ii = Integer.parseInt(individDigit);
@@ -184,8 +182,9 @@ public class FodselsnummerManager {
         int digit_10 = produceDigit_10(K1_WEIGHTS, checkDigitProcessStore);
         return digit_10;
     }
+
     /*
-    *  Calculate digit 10.
+     *  Calculate digit 10.
      */
     private static int produceDigit_10(int[] k1, ArrayList<Integer> checkOne) {
         int digit_10 = 0;
@@ -200,7 +199,7 @@ public class FodselsnummerManager {
         System.out.println(result);
         System.out.println("sum :" + sum);
         int dividedBy_11 = sum / 11;
-        System.out.println("Sum / 11: " + dividedBy_11);
+        System.out.println("Sum divided by 11: " + dividedBy_11);
         int reminder = sum % 11;
         System.out.println("Remainder: " + reminder);
 
@@ -285,6 +284,7 @@ public class FodselsnummerManager {
 
         return produceDigit_11(K2_WEIGHTS, checkDigitProcessStore2);
     }
+
     /*
      *  Calculate digit 11.
      */
@@ -298,17 +298,17 @@ public class FodselsnummerManager {
             result += Integer.toString(k * c) + " ";
             sum += (k * c);
         }
-
         System.out.println(result);
         System.out.println("Sum: " + sum);
         int dividedBy_11 = sum / 11;
-        System.out.println("sum / Divided_By_11: " + dividedBy_11);
+        System.out.println("sum Divided by 11: " + dividedBy_11);
         int reminder = sum % 11;
         System.out.println("Remainder: " + reminder);
 
         try {
             if (reminder == 0) {
                 digit_11 = 1;
+                System.out.println("Digit 11: " + digit_11);
                 return digit_11;
             } else if (reminder == 1) {
                 /* if the remainder becomes 1, the personal number would be incorrect
@@ -316,7 +316,7 @@ public class FodselsnummerManager {
                  * we sett  digit_11 to 1 ( e.i 11-10 =1).
                  */
                 digit_11 = 11 - 10;
-                System.out.println("Digit 10: " + digit_11);
+                System.out.println("Digit 11: " + digit_11);
                 return digit_11;
                 // Dialogs.showErrorDialog("Incorrect Personal number! \n Make sure you if you have registered Correct info?");
                 // throw new InvalidDateException("");

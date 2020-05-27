@@ -2,18 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager_alternative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/file/tt.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager_alternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager_alternative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programutvikling/personmodel/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file/Untitled.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FileManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager_alternative.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager_alternative.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileSaverCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileSaverCsv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file/Untitled.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
@@ -35,6 +53,7 @@
       <list>
         <option value="FxmlFile" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,7 +81,10 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../computerConfiguration" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -74,27 +96,99 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="Folkregister" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Folkeregister.personmodel" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel" />
       <recent name="$PROJECT_DIR$/src/main/resources/Folkregister" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="Folkregister" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel" />
+    </key>
   </component>
   <component name="RunManager" selected="Maven.org.oslomet [clean,compile,package...]">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Folkeregister.App" />
+    <configuration name="DatoTest.isValidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FolkeRegister" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.oslomet.*" />
+          <option name="PATTERN" value="Folkeregister.personmodel.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
+      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.DatoTest" />
+      <option name="METHOD_NAME" value="isValidDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FolkeRegister" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folkeregister.personmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
+      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonValidatorTest.isInvalidName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FolkeRegister" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folkeregister.personmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
+      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
+      <option name="METHOD_NAME" value="isInvalidName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonValidatorTest.isValidEpostRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FolkeRegister" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folkeregister.personmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
+      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
+      <option name="METHOD_NAME" value="isValidEpostRegex" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonValidatorTest.isValidN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FolkeRegister" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folkeregister.personmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
+      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
+      <option name="METHOD_NAME" value="isValidN" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,14 +276,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
       <item itemvalue="Maven.org.oslomet [clean,compile,package...]" />
       <item itemvalue="Maven.org.oslomet [javafx:run]" />
       <item itemvalue="Maven.org.oslomet [javafx:compile]" />
+      <item itemvalue="JUnit.PersonValidatorTest.isInvalidName" />
+      <item itemvalue="JUnit.PersonValidatorTest.isValidEpostRegex" />
+      <item itemvalue="JUnit.PersonValidatorTest" />
+      <item itemvalue="JUnit.DatoTest.isValidDate" />
+      <item itemvalue="JUnit.PersonValidatorTest.isValidN" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.PersonValidatorTest" />
+        <item itemvalue="JUnit.PersonValidatorTest.isValidN" />
+        <item itemvalue="JUnit.DatoTest.isValidDate" />
+        <item itemvalue="JUnit.PersonValidatorTest.isValidEpostRegex" />
+        <item itemvalue="JUnit.PersonValidatorTest.isInvalidName" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +329,8 @@
       <workItem from="1590464665250" duration="4473000" />
       <workItem from="1590498779582" duration="381000" />
       <workItem from="1590565834312" duration="8627000" />
+      <workItem from="1590576022580" duration="4572000" />
+      <workItem from="1590599311367" duration="13280000" />
     </task>
     <servers />
   </component>
@@ -238,9 +342,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="236" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1589968639019" />
-    <state x="509" y="234" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589965779938">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="356" y="160" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590603587178">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="356" y="160" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1590603587178" />
+    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590603593911">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1590603593911" />
     <state x="509" y="234" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1589965779938" />
     <state x="612" y="376" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589967424270">
       <screen x="0" y="23" width="1440" height="877" />
@@ -258,39 +367,63 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="510" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589966408708" />
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1590224940077">
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1590610039646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590224940077" />
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom" timestamp="1590574490242">
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590610039646" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1590614512659">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590574490242" />
+    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
     <state width="1351" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589982075846" />
-    <state width="1237" height="184" key="GridCell.Tab.0.center" timestamp="1590574490242">
+    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1590614512659">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590574490242" />
+    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
     <state width="1351" height="218" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589982075843" />
-    <state width="1237" height="184" key="GridCell.Tab.0.left" timestamp="1590574490242">
+    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1590614512659">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590574490242" />
+    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
     <state width="1351" height="218" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589982075837" />
-    <state width="1237" height="184" key="GridCell.Tab.0.right" timestamp="1590574490242">
+    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1590614512659">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590574490242" />
+    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
     <state width="1351" height="218" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589982075844" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590614512659">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1590614512659">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1590614512659">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1590614512659">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state x="221" y="78" key="IDE.errors.dialog" timestamp="1590602079307">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="221" y="78" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1590602079307" />
     <state x="420" y="105" key="Maven.ArtifactSearchDialog" timestamp="1589980822325">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="420" y="105" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980822325" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590565839815">
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590576028505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590565839815" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590576028505" />
     <state x="422" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589982003063" />
+    <state x="397" y="112" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590608149396">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="397" y="112" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1590608149396" />
     <state x="175" y="147" key="new project wizard" timestamp="1589967323280">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

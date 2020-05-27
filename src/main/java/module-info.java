@@ -1,6 +1,7 @@
 module Folkeregister {
     requires javafx.controls;
     requires javafx.fxml;
+    requires org.junit.jupiter.api;
 
     opens Folkeregister to javafx.fxml;
     opens Folkeregister.personmodel.controllers to javafx.base, javafx.fxml;
