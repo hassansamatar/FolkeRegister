@@ -1,8 +1,7 @@
 package Folkeregister.personmodel.controllers;
 
-import Folkeregister.App;
 import Folkeregister.personmodel.FileManager;
-import Folkeregister.personmodel.FodselsnummerManager2;
+import Folkeregister.personmodel.FodselsnummerManager;
 import Folkeregister.personmodel.Person;
 import Folkeregister.personmodel.PersonRegister;
 import Folkeregister.personmodel.exceptions.InvalidEmailException;
@@ -34,7 +33,7 @@ public class MainController  {
         personTableView.setEditable(true);
         updatePersonList();
         personRegister.loadTestData();
-        FodselsnummerManager2.updateIndividualNumbersTakenList();
+        FodselsnummerManager.updateIndividualNumbersTakenList();
     }
     Stage s;
     private void updatePersonList() {

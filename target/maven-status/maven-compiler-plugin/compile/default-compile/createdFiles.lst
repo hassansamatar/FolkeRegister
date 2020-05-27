@@ -4,10 +4,10 @@ Folkeregister\personmodel\IO\FileSaverJobj.class
 Folkeregister\personmodel\IO\FileOpenerJobj.class
 Folkeregister\personmodel\FileManager.class
 Folkeregister\personmodel\DateValidator.class
+Folkeregister\personmodel\FodselsnummerManager_alternative.class
 module-info.class
 Folkeregister\personmodel\controllers\RegisterController.class
 Folkeregister\personmodel\exceptions\InvalidAgeException.class
-Folkeregister\personmodel\FodselsnummerManager2.class
 Folkeregister\personmodel\Person.class
 Folkeregister\personmodel\controllers\MainController.class
 Folkeregister\personmodel\Dato.class

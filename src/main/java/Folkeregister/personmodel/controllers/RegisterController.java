@@ -20,7 +20,7 @@ public class RegisterController {
 
     public void registerPerson(ActionEvent event) {
         String name = txtName.getText();
-        String gender = txtGender.getText();
+        String gender = txtGender.getText().toLowerCase();
         String epost = txtEpost.getText();
         String telefon = txtTelefon.getText();
         String dOfBirth = txtDateOfBirth.getText().replace(".","");
@@ -34,8 +34,7 @@ public class RegisterController {
             int month = dato.getMonth(dOfBirth);
             int alder = dato.getAlder(dOfBirth);
             int day = dato.getDay(dOfBirth);
-            String fodselsnummer = FodselsnummerManager2.getPersonnummer(day,month,year,gender);
-           // String fodselsnummer = FodselsnummerManager.getPersonnummer(day,month,year,gender);
+            String fodselsnummer = FodselsnummerManager.getPersonnummer(day,month,year,gender);
             System.out.println("Fodselsnummer: "+fodselsnummer);
             Person person = new Person(name,alder,day,month,year,gender,fodselsnummer,epost,telefon);
             System.out.println(person.toString());
