@@ -4,9 +4,11 @@ C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregiste
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\FileManager.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\gui\Dialogs.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\IO\FileOpenerCsv.java
+C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\IO\FileValidator.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\PersonRegister.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\programutvikling\personmodel\UserController.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\module-info.java
+C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\exceptions\InvalidPersonException.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\exceptions\InvalidEmailException.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\FodselsnummerManager.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\Dato.java
@@ -18,6 +20,7 @@ C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregiste
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\PersonValidator.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\IO\FileThread.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\controllers\MainController.java
+C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\exceptions\InvalidFodselsnummerException.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\exceptions\InvalidNameException.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\controllers\RegisterController.java
 C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\java\Folkeregister\personmodel\FodselsnummerManager_alternative.java

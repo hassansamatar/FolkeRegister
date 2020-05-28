@@ -1,74 +1,79 @@
 package Folkeregister.personmodel.IO;
 
+import Folkeregister.personmodel.Person;
 import Folkeregister.personmodel.PersonRegister;
+import Folkeregister.personmodel.PersonValidator;
+import Folkeregister.personmodel.exceptions.InvalidDateException;
+import Folkeregister.personmodel.exceptions.InvalidEmailException;
+import Folkeregister.personmodel.exceptions.InvalidFodselsnummerException;
+import Folkeregister.personmodel.exceptions.InvalidPersonException;
+import Folkeregister.personmodel.gui.Dialogs;
+
+import java.io.BufferedReader;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Collection;
+import static Folkeregister.personmodel.IO.FileValidator.*;
 public class FileOpenerCsv implements FileOpener {
     @Override
     public void openFile(PersonRegister personRegister, Path filePath) {
-
-       /* ArrayList<Person> computerList = new ArrayList<>();
+        ArrayList<Person> peopleList = new ArrayList<>();
         try (BufferedReader bufferedReader = Files.newBufferedReader(filePath)) {
             String line;
             while ((line = bufferedReader.readLine()) != null) {
-                computerList.add(parseData(line));
+                peopleList.add(parseData(line));
             }
-            if( computerList.size() > 0) {
-                computer.removeAll(computer);
-                for (Computer oneComputer : computerList) {
-                    computer.add(oneComputer);
+            if( peopleList.size() > 0) {
+                 personRegister.removeAll();
+                for (Person onePerson : peopleList) {
+                    personRegister.add(onePerson);
                 }
                 Dialogs.showSuccessDialog("Your file is successfully loaded");
-            }
-            else {
-                throw new InvalidComponentException("No content in this file!");
+            }else {
+                throw new InvalidPersonException("No content in this file!");
             }
 
-        } catch (InvalidComponentException | InvalidCommanException e) {
+        } catch (InvalidDateException | InvalidPersonException | InvalidFodselsnummerException e) {
             Dialogs.showErrorDialog("A value was changed: " + e.getMessage());
         } catch (Exception e){
-           // Dialogs.showErrorDialog("Some error occured while openning file: " + e.getMessage());
+             Dialogs.showErrorDialog("Some error occured while openning file: " + e.getMessage());
         }
 
     }
-    public Computer parseData(String data) {
-                    String[] split = data.split(",");
-                    if (split.length != 10) {
-                        System.out.println("Error");
-                    }
-                    String type = split[0];
-                    String computername = split[1];
-                    String prosessor = split[2];
-                    String skjermkort = split[3];
-                    String minne = split[4];
-                    String harddisk = split[5];
-                    String tastatur = split[6];
-                    String mus = split[7];
-                    String skjerm = split[8];
-                    double price = parsePris(split[9], "Price should be a number");
-                    try {
-                          if(Validator.isValidComponent(type,computername,prosessor, skjermkort, minne,
-                                  harddisk,tastatur,mus,skjerm) && Validator.isValidTotalPrice(split[9])){
-                              return new Computer(type,computername, prosessor, skjermkort, minne, harddisk, tastatur, mus, skjerm, price);
-                          };
+    public Person parseData(String data) {
+        String[] split = data.split(",");
+        if (split.length != 9) {
+            System.out.println("Error");
+        }
+        String name = split[0];
+        int age = FileValidator.parseAge(split[1]);
+        int  day = FileValidator.parseDay(split[2]);
+        int month = FileValidator.parseMonth(split[3]);
+        int year = FileValidator.parseYear(split[4]);
+        String gender = split[5];
+        String fodselsnummer =split[6];
+        String email = split[7];
+        String phone = split[8];
+        try {
+            PersonValidator.isValidNavn(name);
+            PersonValidator.isValidEpost(email);
+            PersonValidator.isValidGender(gender);
+            FileValidator.isValidFodselsnummer(split[6]);
+            PersonValidator.isValidTelefon(phone);
+            FileValidator.isValidAge(split[1]);
+            FileValidator.isValidDay(split[2]);
+            FileValidator.isValidMonth(split[3]);
+            FileValidator.isValidYear(split[4]);
 
-                     }catch(InvalidCommanException e){
-                        Dialogs.showErrorDialog(e.getMessage());
-                    }
-                    return null;
-*/
-          }
+            return new Person(name,age, day, month, year,gender,fodselsnummer,email,phone);
+        }catch(InvalidDateException |InvalidPersonException e){
+            Dialogs.showErrorDialog(e.getMessage());
+        }
+        return null;
 
-    /*private double parsePris(String s, String errorMessage) throws IllegalArgumentException {
-                double number = 0;
-                try {
-                    if (Validator.isValidTotalPrice(s)) {
-                        number = Double.parseDouble(s);
-                    }
-                } catch (InvalidPriceExection e) {
-                    Dialogs.showErrorDialog("A value was changed: " + e.getMessage());
-                }
-                return number;
-            }*/
+    }
+
+
 }
 

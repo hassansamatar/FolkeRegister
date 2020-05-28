@@ -10,9 +10,8 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
-
 public class Person implements Serializable {
-    private static final long serialVersionUID = 1;
+    private static final long serialVersionUID = 1L;
     private transient SimpleStringProperty name;
     private transient SimpleIntegerProperty age;
     private transient SimpleIntegerProperty day;
@@ -22,8 +21,7 @@ public class Person implements Serializable {
     private transient SimpleStringProperty fodselsnummer;
     private transient SimpleStringProperty email;
     private transient SimpleStringProperty phone;
-
-    public Person(String name, int age, int day, int month, int year, String gender, String fodselsnummer, String email, String phone) {
+    public Person(String name, int age, int day, int month,int year,String gender,String fodselsnummer, String email, String phone) {
         this.name = new SimpleStringProperty(name);
         this.age = new SimpleIntegerProperty(age);
         this.day = new SimpleIntegerProperty(day);
@@ -40,7 +38,7 @@ public class Person implements Serializable {
     }
 
     public void setName(String name) {
-        if (!PersonValidator.isValidNavn(name)) {
+        if(!PersonValidator.isValidNavn(name)){
             throw new InvalidNameException("Invalid name");
         }
         this.name.set(name);
@@ -58,63 +56,50 @@ public class Person implements Serializable {
     public int getDay() {
         return day.getValue();
     }
-
     public void setDay(int day) {
         this.day.set(day);
     }
-
     public int getMonth() {
         return month.getValue();
     }
-
     public void setMonth(int month) {
         this.month.set(month);
     }
-
     public int getYear() {
         return year.getValue();
     }
-
     public void setYear(int year) {
         this.year.set(year);
     }
-
     public String getGender() {
         return gender.getValue();
     }
-
     public void setGender(String gender) {
-        if (!PersonValidator.isValidGender(gender)) {
+        if(!PersonValidator.isValidGender(gender)){
             throw new InvalidGenderException("Invalid Gender!");
         }
         this.gender.set(gender);
     }
-
     public String getFodselsnummer() {
         return fodselsnummer.getValue();
     }
-
     public void setFodselsnummer(String fodselsnummer) {
         this.fodselsnummer.set(fodselsnummer);
     }
-
     public String getEmail() {
         return email.getValue();
     }
-
     public void setEmail(String email) {
-        if (!PersonValidator.isValidEpost(email)) {
+        if(!PersonValidator.isValidEpost(email)){
             throw new InvalidEmailException("Invalid Epost!");
         }
         this.email.set(email);
     }
-
     public String getPhone() {
         return phone.getValue();
     }
-
     public void setPhone(String phone) {
-        if (!PersonValidator.isValidTelefon(phone)) {
+        if(!PersonValidator.isValidTelefon(phone)){
             throw new InvalidNameException("Invalid Telefon!");
         }
         this.phone.set(phone);
@@ -123,7 +108,7 @@ public class Person implements Serializable {
     @Override
     public String toString() {
         return String.format("%s,%s,%s,%s,%s,%s,%s,%s,%s",
-                name.getValue(), age.getValue(), day.getValue(), month.getValue(), year.getValue(), gender.getValue(), fodselsnummer.getValue(),
+                name.getValue(), age.getValue(), day.getValue(),month.getValue(),year.getValue(),gender.getValue(),fodselsnummer.getValue(),
                 email.getValue(), phone.getValue());
     }
 
@@ -134,8 +119,8 @@ public class Person implements Serializable {
         s.writeInt(getDay());
         s.writeInt(getMonth());
         s.writeInt(getYear());
-        s.writeObject(getGender());
-        s.writeObject(getFodselsnummer());
+        s.writeUTF(getGender());
+        s.writeUTF(getFodselsnummer());
         s.writeUTF(getEmail());
         s.writeUTF(getPhone());
     }
@@ -154,7 +139,6 @@ public class Person implements Serializable {
         this.age = new SimpleIntegerProperty();
         this.day = new SimpleIntegerProperty();
         this.month = new SimpleIntegerProperty();
-
         this.year = new SimpleIntegerProperty();
         this.gender = new SimpleStringProperty();
         this.fodselsnummer = new SimpleStringProperty();

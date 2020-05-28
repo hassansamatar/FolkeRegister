@@ -3,6 +3,7 @@ Folkeregister\personmodel\PersonRegister.class
 Folkeregister\personmodel\IO\FileSaverJobj.class
 Folkeregister\personmodel\IO\FileOpenerJobj.class
 Folkeregister\personmodel\FileManager.class
+Folkeregister\personmodel\IO\FileValidator.class
 Folkeregister\personmodel\DateValidator.class
 Folkeregister\personmodel\FodselsnummerManager_alternative.class
 module-info.class
@@ -16,12 +17,14 @@ Folkeregister\personmodel\exceptions\InvalidGenderException.class
 Folkeregister\personmodel\exceptions\InvalidNameException.class
 Folkeregister\personmodel\exceptions\InvalidDateException.class
 Folkeregister\personmodel\controllers\PrimaryController.class
+Folkeregister\personmodel\exceptions\InvalidPersonException.class
 Folkeregister\personmodel\gui\Dialogs.class
 Folkeregister\personmodel\IO\FileThread.class
 Folkeregister\personmodel\IO\FileSaverCsv.class
 Folkeregister\personmodel\exceptions\InvalidTelephoneException.class
 Folkeregister\personmodel\IO\FileOpener.class
 Folkeregister\personmodel\FodselsnummerManager.class
+Folkeregister\personmodel\exceptions\InvalidFodselsnummerException.class
 Folkeregister\personmodel\IO\FileOpenerCsv.class
 Folkeregister\personmodel\exceptions\InvalidEmailException.class
 Folkeregister\personmodel\controllers\SecondaryController.class

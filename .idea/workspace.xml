@@ -2,36 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/file/tt.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager_alternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager_alternative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileOpener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileOpener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileOpenerCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileOpenerCsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileOpenerJobj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileOpenerJobj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileSaver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileSaver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileSaverCsv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileSaverCsv.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileSaverJobj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileSaverJobj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/IO/FileThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programutvikling/personmodel/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file/Untitled.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/file/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file/hh.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/file/tt.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Folkeregister/personmodel/PersonValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Folkeregister/personmodel/PersonValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FileManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FileManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager_alternative.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager_alternative.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileSaverCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileSaverCsv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileOpenerCsv.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileOpenerCsv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileOpenerJobj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileOpenerJobj.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileSaverJobj.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/IO/FileSaverJobj.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Person.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonValidator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/file/Untitled.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/file/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file/hh.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file/tt.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
@@ -52,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -84,7 +80,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../computerConfiguration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/file" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -99,6 +95,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="Folkeregister.personmodel" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel" />
       <recent name="$PROJECT_DIR$/src/main/resources/Folkregister" />
@@ -106,14 +105,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Folkregister" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Folkeregister.personmodel.exceptions" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Hassan2\Desktop\GitHubProjects\FolkeRegister\src\main\resources\file" />
       <recent name="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.org.oslomet [clean,compile,package...]">
+  <component name="RunManager" selected="JUnit.PersonValidatorTest">
     <configuration name="DatoTest.isValidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FolkeRegister" />
       <extension name="coverage">
@@ -145,22 +145,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonValidatorTest.isInvalidName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FolkeRegister" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Folkeregister.personmodel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
-      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
-      <option name="METHOD_NAME" value="isInvalidName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PersonValidatorTest.isValidEpostRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FolkeRegister" />
       <extension name="coverage">
@@ -188,6 +172,22 @@
       <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
       <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
       <option name="METHOD_NAME" value="isValidN" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonValidatorTest.isValidName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FolkeRegister" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folkeregister.personmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
+      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
+      <option name="METHOD_NAME" value="isValidName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -276,22 +276,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Maven.org.oslomet [clean,compile,package...]" />
-      <item itemvalue="Maven.org.oslomet [javafx:run]" />
-      <item itemvalue="Maven.org.oslomet [javafx:compile]" />
-      <item itemvalue="JUnit.PersonValidatorTest.isInvalidName" />
       <item itemvalue="JUnit.PersonValidatorTest.isValidEpostRegex" />
       <item itemvalue="JUnit.PersonValidatorTest" />
       <item itemvalue="JUnit.DatoTest.isValidDate" />
       <item itemvalue="JUnit.PersonValidatorTest.isValidN" />
+      <item itemvalue="Maven.org.oslomet [clean,compile,package...]" />
+      <item itemvalue="Maven.org.oslomet [javafx:run]" />
+      <item itemvalue="Maven.org.oslomet [javafx:compile]" />
+      <item itemvalue="JUnit.PersonValidatorTest.isValidName" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.PersonValidatorTest" />
+        <item itemvalue="JUnit.PersonValidatorTest.isValidName" />
         <item itemvalue="JUnit.PersonValidatorTest.isValidN" />
         <item itemvalue="JUnit.DatoTest.isValidDate" />
         <item itemvalue="JUnit.PersonValidatorTest.isValidEpostRegex" />
-        <item itemvalue="JUnit.PersonValidatorTest.isInvalidName" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +331,14 @@
       <workItem from="1590565834312" duration="8627000" />
       <workItem from="1590576022580" duration="4572000" />
       <workItem from="1590599311367" duration="13280000" />
+      <workItem from="1590615548642" duration="71000" />
+      <workItem from="1590617397525" duration="2030000" />
+      <workItem from="1590639826384" duration="8603000" />
+      <workItem from="1590650768752" duration="7579000" />
+      <workItem from="1590662645850" duration="2498000" />
+      <workItem from="1590676592821" duration="6955000" />
+      <workItem from="1590688432277" duration="2481000" />
+      <workItem from="1590691004950" duration="6189000" />
     </task>
     <servers />
   </component>
@@ -367,29 +375,29 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="510" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589966408708" />
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1590610039646">
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1590652325128">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590610039646" />
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom" timestamp="1590614512659">
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590652325128" />
+    <state width="1237" height="184" key="GridCell.Tab.0.bottom" timestamp="1590697219132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state width="1237" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590697219132" />
     <state width="1351" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589982075846" />
-    <state width="1237" height="204" key="GridCell.Tab.0.center" timestamp="1590614512659">
+    <state width="1237" height="184" key="GridCell.Tab.0.center" timestamp="1590697219132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state width="1237" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590697219132" />
     <state width="1351" height="218" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589982075843" />
-    <state width="1237" height="204" key="GridCell.Tab.0.left" timestamp="1590614512659">
+    <state width="1237" height="184" key="GridCell.Tab.0.left" timestamp="1590697219132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state width="1237" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590697219132" />
     <state width="1351" height="218" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589982075837" />
-    <state width="1237" height="204" key="GridCell.Tab.0.right" timestamp="1590614512659">
+    <state width="1237" height="184" key="GridCell.Tab.0.right" timestamp="1590697219132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
+    <state width="1237" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590697219132" />
     <state width="1351" height="218" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589982075844" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590614512659">
       <screen x="0" y="0" width="1280" height="680" />
@@ -415,10 +423,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="420" y="105" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980822325" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590576028505">
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590691018019">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590576028505" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590691018019" />
     <state x="422" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589982003063" />
     <state x="397" y="112" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590608149396">
       <screen x="0" y="0" width="1280" height="680" />
@@ -432,21 +440,5 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589995670470" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FileManager.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FileManager.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
