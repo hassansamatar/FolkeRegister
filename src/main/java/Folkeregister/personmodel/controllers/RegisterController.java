@@ -1,5 +1,6 @@
 package Folkeregister.personmodel.controllers;
 import Folkeregister.personmodel.*;
+import Folkeregister.personmodel.IO.FileValidator;
 import Folkeregister.personmodel.exceptions.*;
 import Folkeregister.personmodel.gui.Dialogs;
 import javafx.event.ActionEvent;
@@ -10,16 +11,15 @@ import java.io.IOException;
 import java.time.format.DateTimeFormatter;
 public class RegisterController {
     private PersonRegister model;
-    public TextField txtName, txtGender, txtEpost, txtTelefon, txtDateOfBirth;
-    public Label lblNameError, lblGenderError, lblEpostError, lblTelefonError, lblDateError;
+    public TextField txtName, txtGender, txtEpost, txtPhone, txtDay, txtMonth,txtYear;
     DateTimeFormatter dateTimeFormatter = DateTimeFormatter.BASIC_ISO_DATE;
     Dato dato = new Dato(dateTimeFormatter);
     public void registerPerson(ActionEvent event) {
         String name = txtName.getText();
         String gender = txtGender.getText().toLowerCase();
         String epost = txtEpost.getText();
-        String telefon = txtTelefon.getText();
-        String dOfBirth = txtDateOfBirth.getText().replace(".", "");
+        String telefon = txtPhone.getText();
+        String dOfBirth = txtYear.getText()+txtMonth.getText()+txtDay.getText();
         try {
             PersonValidator.isValidNavn(name);
             PersonValidator.isValidGender(gender);
@@ -36,31 +36,10 @@ public class RegisterController {
             System.out.println(person.toString());
             model.add(person);
             hide(event);
-
         } catch (InvalidNameException | InvalidGenderException | InvalidDateException | InvalidAgeException |
                 InvalidEmailException | InvalidTelephoneException e) {
             Dialogs.showErrorDialog(e.getMessage());
-
         }
-        /* catch (InvalidNameException e){
-
-            lblNameError.setText(e.getMessage());
-        }catch (InvalidGenderException e){
-            lblGenderError.setText(e.getMessage());
-        }
-        catch (InvalidEmailException e){
-            lblEpostError.setText(e.getMessage());
-        }
-        catch (InvalidTelephoneException e){
-            lblTelefonError.setText(e.getMessage());
-        }
-        catch (InvalidAgeException e){
-            lblDateError.setText(e.getMessage());
-        }
-        catch (InvalidDateException e){
-            lblDateError.setText(e.getMessage());
-        }*/
-
 
     }
 
@@ -74,5 +53,6 @@ public class RegisterController {
     public void setModel(PersonRegister model) {
         this.model = model;
     }
+
 
 }

@@ -16,10 +16,14 @@ public class PersonValidator {
     }
 
     public static boolean isValidGender(String s) {
-        if (!isValidGenderInput(s)) {
+        if(s.isEmpty() || s.isBlank()){
+            throw new InvalidGenderException("Please select gender");
+        }else if (!isValidGenderInput(s)) {
             throw new InvalidGenderException("Skriv inn m: for mann eller f: for kvinne");
+        }else{
+            return true;
         }
-        return true;
+
     }
 
     public static boolean isValidEpost(String s) {
