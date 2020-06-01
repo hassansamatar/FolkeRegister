@@ -54,8 +54,12 @@ public class FodselsnummerManager {
     /* update individual numbers in use in the loaded test data.
      */
     public static void updateIndividualNumbersTakenList() {
-        usedIndividualNumersList.add(500);
-        usedIndividualNumersList.add(501);
+        usedIndividualNumersList.add(721);
+        usedIndividualNumersList.add(722);
+        usedIndividualNumersList.add(996);
+        usedIndividualNumersList.add(995);
+        usedIndividualNumersList.add(998);
+        usedIndividualNumersList.add(498);
     }
 
     public static String getPersonnummer(int day, int month, int year, String gender) {
