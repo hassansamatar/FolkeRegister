@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/RegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/controllers/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Folkeregister/main.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Folkeregister/register.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Folkeregister/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Folkeregister/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Folkeregister/personmodel/DatoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Folkeregister/personmodel/DatoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Folkeregister/personmodel/PersonValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Folkeregister/personmodel/PersonValidatorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/RegisterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/controllers/MainController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/register.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/register.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/file/lt.jobj" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/file/lt.jobj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Folkeregister/personmodel/DatoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Folkeregister/personmodel/PersonValidatorTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +106,15 @@
     </key>
   </component>
   <component name="RunManager" selected="Maven.org.oslomet [clean,compile,package...]">
-    <configuration name="DatoTest.isValidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in FolkeRegister" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FolkeRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FolkeRegister" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +124,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
       <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.DatoTest" />
-      <option name="METHOD_NAME" value="isValidDate" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DatoTest.isInvalidDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FolkeRegister" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Folkeregister.personmodel.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
+      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.DatoTest" />
+      <option name="METHOD_NAME" value="isInvalidDate" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -127,38 +156,6 @@
       <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
       <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonValidatorTest.isValidEpostRegex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FolkeRegister" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Folkeregister.personmodel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
-      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
-      <option name="METHOD_NAME" value="isValidEpostRegex" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonValidatorTest.isValidN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FolkeRegister" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Folkeregister.personmodel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Folkeregister.personmodel" />
-      <option name="MAIN_CLASS_NAME" value="Folkeregister.personmodel.PersonValidatorTest" />
-      <option name="METHOD_NAME" value="isValidN" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -262,22 +259,22 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.PersonValidatorTest.isValidEpostRegex" />
       <item itemvalue="JUnit.PersonValidatorTest" />
-      <item itemvalue="JUnit.DatoTest.isValidDate" />
-      <item itemvalue="JUnit.PersonValidatorTest.isValidN" />
       <item itemvalue="JUnit.PersonValidatorTest.isValidName" />
+      <item itemvalue="JUnit.All in FolkeRegister" />
+      <item itemvalue="JUnit.DatoTest.isInvalidDate" />
+      <item itemvalue="JUnit.DatoTest" />
       <item itemvalue="Maven.org.oslomet [clean,compile,package...]" />
       <item itemvalue="Maven.org.oslomet [javafx:run]" />
       <item itemvalue="Maven.org.oslomet [javafx:compile]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in FolkeRegister" />
+        <item itemvalue="JUnit.DatoTest" />
+        <item itemvalue="JUnit.DatoTest.isInvalidDate" />
         <item itemvalue="JUnit.PersonValidatorTest" />
         <item itemvalue="JUnit.PersonValidatorTest.isValidName" />
-        <item itemvalue="JUnit.PersonValidatorTest.isValidN" />
-        <item itemvalue="JUnit.DatoTest.isValidDate" />
-        <item itemvalue="JUnit.PersonValidatorTest.isValidEpostRegex" />
       </list>
     </recent_temporary>
   </component>
@@ -331,6 +328,15 @@
       <workItem from="1590745801028" duration="213000" />
       <workItem from="1590746781922" duration="2962000" />
       <workItem from="1590764969967" duration="1216000" />
+      <workItem from="1590766478118" duration="1607000" />
+      <workItem from="1590834510819" duration="2902000" />
+      <workItem from="1590846202555" duration="1006000" />
+      <workItem from="1590860383610" duration="2719000" />
+      <workItem from="1590911694020" duration="15521000" />
+      <workItem from="1590944230179" duration="37000" />
+      <workItem from="1590944380548" duration="199000" />
+      <workItem from="1590944636874" duration="9000" />
+      <workItem from="1591000649725" duration="3643000" />
     </task>
     <servers />
   </component>
@@ -367,29 +373,29 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="510" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589966408708" />
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1590652325128">
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1590944246702">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590652325128" />
-    <state width="1222" height="184" key="GridCell.Tab.0.bottom" timestamp="1590766187232">
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590944246702" />
+    <state width="1222" height="184" key="GridCell.Tab.0.bottom" timestamp="1591004302464">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590766187232" />
+    <state width="1222" height="184" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591004302464" />
     <state width="1351" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589982075846" />
-    <state width="1222" height="184" key="GridCell.Tab.0.center" timestamp="1590766187232">
+    <state width="1222" height="184" key="GridCell.Tab.0.center" timestamp="1591004302463">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590766187232" />
+    <state width="1222" height="184" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591004302463" />
     <state width="1351" height="218" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589982075843" />
-    <state width="1222" height="184" key="GridCell.Tab.0.left" timestamp="1590766187232">
+    <state width="1222" height="184" key="GridCell.Tab.0.left" timestamp="1591004302463">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590766187232" />
+    <state width="1222" height="184" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591004302463" />
     <state width="1351" height="218" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589982075837" />
-    <state width="1222" height="184" key="GridCell.Tab.0.right" timestamp="1590766187232">
+    <state width="1222" height="184" key="GridCell.Tab.0.right" timestamp="1591004302464">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1222" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590766187232" />
+    <state width="1222" height="184" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591004302464" />
     <state width="1351" height="218" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589982075844" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590614512659">
       <screen x="0" y="0" width="1280" height="680" />
@@ -415,10 +421,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="420" y="105" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980822325" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590764971273">
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1590944637649">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590764971273" />
+    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1590944637649" />
     <state x="422" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589982003063" />
     <state x="397" y="112" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590608149396">
       <screen x="0" y="0" width="1280" height="680" />
@@ -432,5 +438,8 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589995670470" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FolkeRegister$All_in_FolkeRegister.ic" NAME="All in FolkeRegister Coverage Results" MODIFIED="1590766686961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

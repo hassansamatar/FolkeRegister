@@ -6,15 +6,15 @@ import Folkeregister.personmodel.Person;
 import Folkeregister.personmodel.PersonRegister;
 import Folkeregister.personmodel.exceptions.*;
 import Folkeregister.personmodel.gui.Dialogs;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.Alert;
-import javafx.scene.control.ButtonType;
-import javafx.scene.control.TableColumn;
-import javafx.scene.control.TableView;
+import javafx.scene.control.*;
+import javafx.scene.input.KeyEvent;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -24,12 +24,17 @@ public class MainController {
 
     @FXML
     private TableView<Person> personTableView;
+    @FXML
+    TextField txtSearch;
+    @FXML
+    ChoiceBox<String> filterChoice;
     private  final PersonRegister personRegister = new PersonRegister();
 
     public void initialize() {
         personTableView.setEditable(true);
         updatePersonList();
         personRegister.loadTestData();
+        filterChoice.setValue("Name");
         FodselsnummerManager.updateIndividualNumbersTakenList();
     }
     Stage s;
@@ -145,5 +150,37 @@ public class MainController {
         }
         personTableView.refresh();
 
+    }
+
+    @FXML
+    private void filterChoiceChanged() {
+        filter();
+    }
+
+    @FXML
+    private void searchTxtEntered() {
+        filter();
+    }
+
+    private void filter() {
+        if(txtSearch.getText().isBlank()) {
+            updatePersonList();
+            return;
+        }
+
+        ObservableList<Person> result = null;
+        switch (filterChoice.getValue().toLowerCase()) {
+            case "name": result =  personRegister.filterByName(txtSearch.getText()); break;
+            case "gender" : result =  personRegister.filterByGender(txtSearch.getText()); break;
+            case "fodselsnummer" : result =  personRegister.filterByFodselsnummer(txtSearch.getText()); break;
+            case "epost" : result =  personRegister.filterByEmail(txtSearch.getText()); break;
+            case "phone" : result =  personRegister.filterByPhone(txtSearch.getText());
+        }
+
+        if(result == null) {
+            personTableView.setItems(FXCollections.observableArrayList());
+        } else {
+            personTableView.setItems(result);
+        }
     }
 }

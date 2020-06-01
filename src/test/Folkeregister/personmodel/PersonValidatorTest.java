@@ -10,7 +10,7 @@ class PersonValidatorTest {
         assertTrue(PersonValidator.isValidNavnRegex("henrik"));
        assertTrue(PersonValidator.isValidNavnRegex("Henrik  Ole"));
 
-        //assertTrue(PersonValidator.isValidNavnRegex("Åse Ødegår"));
+       // assertTrue(PersonValidator.isValidNavnRegex("Åse Ødegår"));
        // assertTrue(PersonValidator.isValidNavnRegex("Åse Ødegår Ærlin velgårds"));
     }
 

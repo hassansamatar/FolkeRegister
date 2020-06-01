@@ -19,22 +19,39 @@ import java.util.Arrays;
  */
 public class FodselsnummerManager {
     /*
-     * Taken individual numbers on daily bases.
+     * Store taken individual numbers on daily bases to avoid duplication
+     * of same individual number for two different persons born on a same day.
+     *
      */
     private static ArrayList<Integer> usedIndividualNumersList = new ArrayList<>();
     /*
      * Receives date of birth and gender from user interface.
      * Returns Norwegian social security number.
      */
-    // private static final int[] K1_WEIGHTS = new int[] { 2, 5, 4, 9, 8, 1, 6, 7, 3 };
-    // private static final int[] K2_WEIGHTS = new int[] { 2, 3, 4, 5, 6, 7, 2, 3, 4, 5 };
-    private static final int[] K1_WEIGHTS = new int[]{3, 7, 6, 1, 8, 9, 4, 5, 2};
+    /*
+    * K1_WEIGHTS ={ 2, 5, 4, 9, 8, 1, 6, 7, 3 }.
+    * We store these factors in an array in reverse order
+    * to make multiplication with (date of birth + individual number) easier.
+    */
+      private static final int[] K1_WEIGHTS = new int[]{3, 7, 6, 1, 8, 9, 4, 5, 2};
+    /*
+     *  K2_WEIGHTS = { 2, 3, 4, 5, 6, 7, 2, 3, 4, 5 }
+     * We store these factors in an array in reverse order
+     * to make multiplication with (first 10 digits of personal number) easier.
+     */
     private static final int[] K2_WEIGHTS = new int[]{5, 4, 3, 2, 7, 6, 5, 4, 3, 2};
+    /*
+     * An Arraylist for storing date of birth and individual number (9 digits)
+     * to make multiplication with (K1_WEIGHTS) easier.
+     */
     private static ArrayList<Integer> checkDigitProcessStore = new ArrayList<>();
+    /*
+     * An Arraylist for storing first 10 digits of the personal number
+     * to make multiplication with (K2_WEIGHTS) easier.
+     */
     private static ArrayList<Integer> checkDigitProcessStore2 = new ArrayList<>();
 
-    /* Alternative two solution - Personal number
-     * with real check digits when the weights K1, K2 are known.
+    /* update individual numbers in use in the loaded test data.
      */
     public static void updateIndividualNumbersTakenList() {
         usedIndividualNumersList.add(500);
@@ -193,10 +210,10 @@ public class FodselsnummerManager {
         for (int i = 0; i < k1.length; i++) {
             int k = k1[i];
             int c = checkOne.get(i);
-            result += Integer.toString(k * c) + " ";
+            result += Integer.toString(k * c) + "  ";
             sum += (k * c);
         }
-        System.out.println(result);
+        System.out.println(" "+result);
         System.out.println("sum :" + sum);
         int dividedBy_11 = sum / 11;
         System.out.println("Sum divided by 11: " + dividedBy_11);
@@ -295,10 +312,10 @@ public class FodselsnummerManager {
         for (int i = 0; i < k2.length; i++) {
             int k = k2[i];
             int c = checkTwo.get(i);
-            result += Integer.toString(k * c) + " ";
+            result += Integer.toString(k * c) + "  ";
             sum += (k * c);
         }
-        System.out.println(result);
+        System.out.println(" "+result);
         System.out.println("Sum: " + sum);
         int dividedBy_11 = sum / 11;
         System.out.println("sum Divided by 11: " + dividedBy_11);

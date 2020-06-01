@@ -17,6 +17,9 @@ public class Dato implements DateValidator {
     private static DateTimeFormatter dateFormater;
     private static Date fodselsdato;
     private static Calendar calender = Calendar.getInstance();
+    private static int currentYear = Calendar.getInstance().get(Calendar.YEAR);
+    private static int  nextMonth = Calendar.getInstance().get(Calendar.MONTH)+2;
+    private static  int today =Calendar.getInstance().get(Calendar.DATE);
     //constructor
     public Dato(DateTimeFormatter dateFormater) {
         this.dateFormater = dateFormater;
@@ -25,10 +28,22 @@ public class Dato implements DateValidator {
     public boolean isValidDate(String innFodselsdato) {
         try {
             this.dateFormater.parse(innFodselsdato);
+            return true;
         } catch (DateTimeParseException e) {
-            throw new InvalidDateException("Ugyldig fødselsdato! ");
+            throw new InvalidDateException("Invalid Date of Birth! " +
+                    "\nEnter a real and a valid date in the form of: dd mm yyyy."
+            );
         }
-        return true;
+    } //end isValidDate()
+
+    public boolean isInValidDate(String innFodselsdato) {
+        try {
+            this.dateFormater.parse(innFodselsdato);
+            return true;
+        } catch (DateTimeParseException e) {
+            return false;
+        }
+
     } //end isValidDate()
 
     public static Date fodselsdatoFormater(String innFodselsdato) {
@@ -43,27 +58,44 @@ public class Dato implements DateValidator {
     } //end fodselsdatoformater
 
     public static int getYear(String innFodselsdato) {
+        int BirthYear;
+
         fodselsdato = fodselsdatoFormater(innFodselsdato);
         calender.setTime(fodselsdato);
-        int year = calender.get(Calendar.YEAR);
-        if (year < 1900 || year > 2020) {
-            throw new InvalidAgeException("fødselsår må være mellom 1900 og 2020!");
+        BirthYear = calender.get(Calendar.YEAR);
+        if (BirthYear < 1900 || BirthYear> currentYear) {
+            throw new InvalidAgeException("Valid birth year: from 1900 to the current year!");
         }
-        return year;
+        return BirthYear;
     } //end getYeat()
 
     public static int getMonth(String innFodselsdato) {
+        int birthYear = getYear(innFodselsdato);
         fodselsdato = fodselsdatoFormater(innFodselsdato);
         calender.setTime(fodselsdato);
-        int month = calender.get(Calendar.MONTH) + 1;
-        return month;
+        int birthMonth = calender.get(Calendar.MONTH) + 1;
+        if(birthMonth >= nextMonth && birthYear >= currentYear){
+            throw new InvalidAgeException("You can't be born in the feature! \n" +
+                    "A valid month could be either this month or in the past.");
+        }
+        return birthMonth;
     } // end getMonth()
 
     public static int getDay(String innFodselsdato) {
         fodselsdato = fodselsdatoFormater(innFodselsdato);
         calender.setTime(fodselsdato);
-        int day = calender.get(Calendar.DATE);
-        return day;
+        int birthDay= calender.get(Calendar.DATE);
+        int birthMonth = getMonth(innFodselsdato);
+        /*
+         * if birth month and current month are same,
+         * day of birth should be either current day or a day in the past.
+         */
+        if( birthDay > today && birthMonth == nextMonth -1) {
+            throw new InvalidAgeException("You can't be born in the feature! \n" +
+                    "A valid birth day is either today or a day in the past.");
+        }
+
+        return birthDay;
     } // end getDay()
 
     public static int getAlder(String innFodselsdato) {
@@ -71,7 +103,8 @@ public class Dato implements DateValidator {
                 getYear(innFodselsdato),
                 getMonth(innFodselsdato),
                 getDay(innFodselsdato)
-           );
+        );
+
         Period difference = Period.between(dinFodselsdato, LocalDate.now());
         return difference.getYears();
     } // getAlder()

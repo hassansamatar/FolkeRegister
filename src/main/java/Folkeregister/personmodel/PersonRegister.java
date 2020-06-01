@@ -10,6 +10,7 @@ import java.io.ObjectOutputStream;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class PersonRegister implements Serializable {
     private static final long serialVersionUID = 1L;
@@ -47,6 +48,39 @@ public class PersonRegister implements Serializable {
         List<Person> list = (List<Person>) s.readObject();
         people = FXCollections.observableArrayList();
         people.addAll(list);
+    }
+    /*
+     * Filtering.
+     */
+    public ObservableList<Person> filterByName(String name) {
+        return people.stream().
+                filter(p -> p.getName().toLowerCase().
+                        matches(String.format("%s%s%s",".*", name.toLowerCase(), ".*"))).
+                collect(Collectors.toCollection(FXCollections::observableArrayList));
+    }
+    public ObservableList<Person> filterByGender(String gender) {
+        return people.stream().
+                filter(p -> p.getGender().toLowerCase().
+                        matches(String.format("%s%s%s",".*", gender.toLowerCase(), ".*"))).
+                collect(Collectors.toCollection(FXCollections::observableArrayList));
+    }
+    public ObservableList<Person> filterByFodselsnummer(String fodselsnummer) {
+        return people.stream().
+                filter(p -> p.getFodselsnummer().toLowerCase().
+                        matches(String.format("%s%s%s",".*", fodselsnummer.toLowerCase(), ".*"))).
+                collect(Collectors.toCollection(FXCollections::observableArrayList));
+    }
+    public ObservableList<Person> filterByEmail(String email) {
+        return people.stream().
+                filter(p -> p.getEmail().
+                        matches(String.format("%s%s%s",".*", email, ".*"))).
+                collect(Collectors.toCollection(FXCollections::observableArrayList));
+    }
+    public ObservableList<Person> filterByPhone(String phone) {
+        return people.stream().
+                filter(p -> p.getPhone().
+                        matches(String.format("%s%s%s",".*", phone, ".*"))).
+                collect(Collectors.toCollection(FXCollections::observableArrayList));
     }
 
     public ObservableList<Person> loadTestData() {

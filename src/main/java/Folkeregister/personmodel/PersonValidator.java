@@ -10,16 +10,14 @@ import java.util.regex.Pattern;
 public class PersonValidator {
     public static boolean isValidNavn(String s) {
         if (!isValidNavnRegex(s)) {
-            throw new InvalidNameException("Navn Må være riktig format");
+            throw new InvalidNameException("Invalid name! \nValid name: min of 2 and max of 30 non-digit characters.");
         }
         return true;
     }
 
     public static boolean isValidGender(String s) {
-        if(s.isEmpty() || s.isBlank()){
-            throw new InvalidGenderException("Please select gender");
-        }else if (!isValidGenderInput(s)) {
-            throw new InvalidGenderException("Skriv inn m: for mann eller f: for kvinne");
+     if (!isValidGenderInput(s)) {
+            throw new InvalidGenderException("Invalid gender! \nValid gender: M or F");
         }else{
             return true;
         }
@@ -28,14 +26,14 @@ public class PersonValidator {
 
     public static boolean isValidEpost(String s) {
         if (!isValidEpostRegex(s)) {
-            throw new InvalidEmailException("Epost må være riktig format");
+            throw new InvalidEmailException("Invalid email address!\nValid email format: example@gmail.com");
         }
         return true;
     }
 
     public static boolean isValidTelefon(String s) {
         if (!isValidTelefonRegex(s)) {
-            throw new InvalidTelephoneException("Telefon Må være riktig format");
+            throw new InvalidTelephoneException("Invalid phone format!\nValid phone formats include: Norwegian, Canadian, USA, and UK phones.");
         }
         return true;
     }

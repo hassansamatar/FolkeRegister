@@ -11,6 +11,9 @@ class DatoTest {
     Dato dato = new Dato(dateTimeFormatter);
     @Test
     void isValidDate() {
+        /*
+        *Remember BASIC_ISO_DATE format yyyy mm dd
+         */
         assertTrue(dato.isValidDate("20200501"));
         assertTrue(dato.isValidDate("19991231"));
         assertTrue(dato.isValidDate("18110330"));
@@ -21,16 +24,19 @@ class DatoTest {
     }
     @Test
     void isInvalidDate() {
-        assertFalse(dato.isValidDate("20201301"));
-        // Dec. 32
-        assertFalse(dato.isValidDate("19991232"));
+        /*
+         *Remember BASIC_ISO_DATE format yyyy mm dd
+         */
+       assertFalse(dato.isInValidDate("20200230"));
+        // Dec. 32, 1999.
+        assertFalse(dato.isInValidDate("19991232"));
         // Feb. 29 . 2011 was not a leap year.
-        assertFalse(dato.isValidDate("20110229"));
-        assertFalse(dato.isValidDate("2020229"));
-        assertFalse(dato.isValidDate("19990631"));
-        assertFalse(dato.isValidDate(" "));
-        assertFalse(dato.isValidDate("kk"));
-        assertFalse(dato.isValidDate("1999 Jan 6"));
+        assertFalse(dato.isInValidDate("20110229"));
+        assertFalse(dato.isInValidDate("2020229"));
+        assertFalse(dato.isInValidDate("19990631"));
+        assertFalse(dato.isInValidDate(" "));
+        assertFalse(dato.isInValidDate("kk"));
+        assertFalse(dato.isInValidDate("1999 Jan 6"));
     }
 
 }
