@@ -75,7 +75,7 @@ public class Dato implements DateValidator {
         calender.setTime(fodselsdato);
         int birthMonth = calender.get(Calendar.MONTH) + 1;
         if(birthMonth >= nextMonth && birthYear >= currentYear){
-            throw new InvalidAgeException("You can't be born in the feature! \n" +
+            throw new InvalidAgeException("Invalid Month of birth! \n" +
                     "A valid month could be either this month or in the past.");
         }
         return birthMonth;
@@ -92,7 +92,7 @@ public class Dato implements DateValidator {
          * day of birth should be either current day or a day in the past.
          */
         if( birthDay > today && birthMonth == nextMonth -1  && birthYear >= currentYear) {
-            throw new InvalidAgeException("You can't be born in the feature! \n" +
+            throw new InvalidAgeException("Invalid day of birth! \n" +
                     "A valid birth day is either today or a day in the past.");
         }
 

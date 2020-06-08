@@ -196,7 +196,7 @@ public class FodselsnummerManager {
             int z = Character.digit(iii.charAt(i), 10);
             checkDigitProcessStore.add(z);
         }
-        System.out.println("Fodselsnummer last two Check digts is constructed as flows:- ");
+        System.out.println("Fodselsnummer last two Check digts constructed as flowing:- ");
         System.out.println("Date of birth + Individual number multiply by  K1_WEIGHTS");
         System.out.println(checkDigitProcessStore);
         System.out.println(Arrays.toString(K1_WEIGHTS));
@@ -223,6 +223,8 @@ public class FodselsnummerManager {
         System.out.println("Sum divided by 11: " + dividedBy_11);
         int reminder = sum % 11;
         System.out.println("Remainder: " + reminder);
+        int  d = 11-reminder;
+        System.out.println("Check digit: 11 - "+ reminder+" = "  +d);
 
         try {
             if (reminder == 0) {
@@ -325,6 +327,8 @@ public class FodselsnummerManager {
         System.out.println("sum Divided by 11: " + dividedBy_11);
         int reminder = sum % 11;
         System.out.println("Remainder: " + reminder);
+        int  d = 11-reminder;
+        System.out.println("Check digit: 11 - "+ reminder+" = "  +d);
 
         try {
             if (reminder == 0) {
