@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/Dato.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/FodselsnummerManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/Dato.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/FodselsnummerManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,23 +52,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1cAJAfgHmhc2qxx1aaJPdpkT9m7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -161,6 +171,7 @@
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="org.oslomet [clean,compile,package...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
@@ -257,10 +268,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in FolkeRegister" />
         <item itemvalue="JUnit.DatoTest" />
-        <item itemvalue="JUnit.DatoTest.isInvalidDate" />
         <item itemvalue="JUnit.PersonValidatorTest" />
+        <item itemvalue="JUnit.All in FolkeRegister" />
+        <item itemvalue="JUnit.DatoTest.isInvalidDate" />
         <item itemvalue="JUnit.PersonValidatorTest.isValidName" />
       </list>
     </recent_temporary>
@@ -330,25 +341,47 @@
       <workItem from="1591182972026" duration="796000" />
       <workItem from="1591336238480" duration="218000" />
       <workItem from="1591527749518" duration="325000" />
+      <workItem from="1591805955624" duration="272000" />
+      <workItem from="1591806381941" duration="133000" />
+      <workItem from="1592468388252" duration="951000" />
+      <workItem from="1593034789824" duration="164000" />
+      <workItem from="1593126730731" duration="593000" />
+      <workItem from="1593161008987" duration="2038000" />
+      <workItem from="1593164511548" duration="1451000" />
+      <workItem from="1596134042329" duration="1953000" />
+      <workItem from="1596351281128" duration="20000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="236" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589968639019">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593164586581">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1593164586581" />
     <state x="236" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1589968639019" />
     <state x="356" y="160" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590603587178">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="356" y="160" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1590603587178" />
-    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590603593911">
+    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593164584358">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1590603593911" />
+    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1593164584358" />
     <state x="509" y="234" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1589965779938" />
     <state x="612" y="376" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589967424270">
       <screen x="0" y="23" width="1440" height="877" />
@@ -366,29 +399,29 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="510" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589966408708" />
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1590944246702">
+    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1593163755574">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590944246702" />
-    <state width="1237" height="193" key="GridCell.Tab.0.bottom" timestamp="1591528074249">
+    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593163755574" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1596139172575">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591528074249" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596139172575" />
     <state width="1351" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589982075846" />
-    <state width="1237" height="193" key="GridCell.Tab.0.center" timestamp="1591528074248">
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1596139172574">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591528074248" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596139172574" />
     <state width="1351" height="218" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589982075843" />
-    <state width="1237" height="193" key="GridCell.Tab.0.left" timestamp="1591528074248">
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1596139172573">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591528074248" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596139172573" />
     <state width="1351" height="218" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589982075837" />
-    <state width="1237" height="193" key="GridCell.Tab.0.right" timestamp="1591528074249">
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1596139172575">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591528074249" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596139172575" />
     <state width="1351" height="218" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589982075844" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590614512659">
       <screen x="0" y="0" width="1280" height="680" />
