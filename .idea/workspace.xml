@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,9 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b8e38272-69c4-463c-b69d-9e22da5ef176" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Folkeregister/personmodel/PersonRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Folkeregister/personmodel/PersonRegister.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.oslomet-1.0-SNAPSHOT.jar" afterDir="false" />
@@ -52,6 +56,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Educational Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -69,16 +80,17 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../computerConfiguration" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -171,7 +183,6 @@
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="org.oslomet [clean,compile,package...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
@@ -257,14 +268,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="JUnit.All in FolkeRegister" />
+      <item itemvalue="JUnit.DatoTest" />
+      <item itemvalue="JUnit.DatoTest.isInvalidDate" />
       <item itemvalue="JUnit.PersonValidatorTest" />
       <item itemvalue="JUnit.PersonValidatorTest.isValidName" />
-      <item itemvalue="JUnit.All in FolkeRegister" />
-      <item itemvalue="JUnit.DatoTest.isInvalidDate" />
-      <item itemvalue="JUnit.DatoTest" />
       <item itemvalue="Maven.org.oslomet [clean,compile,package...]" />
-      <item itemvalue="Maven.org.oslomet [javafx:run]" />
       <item itemvalue="Maven.org.oslomet [javafx:compile]" />
+      <item itemvalue="Maven.org.oslomet [javafx:run]" />
     </list>
     <recent_temporary>
       <list>
@@ -276,6 +287,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -369,101 +381,50 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593164586581">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1601419738867">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="191" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1593164586581" />
-    <state x="236" y="105" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1589968639019" />
-    <state x="356" y="160" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1590603587178">
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1601419738867" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1602889108397">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="356" y="160" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1590603587178" />
-    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1593164584358">
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1602889108397" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1602889770091">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="452" y="164" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1593164584358" />
-    <state x="509" y="234" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1589965779938" />
-    <state x="612" y="376" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1589967424270">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="612" y="376" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.23.1440.877@0.23.1440.877" timestamp="1589967424270" />
-    <state x="542" y="335" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1589975810580">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="542" y="335" width="451" height="225" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1589975810580" />
-    <state x="843" y="356" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1589967428084">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="843" y="356" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.877@0.23.1440.877" timestamp="1589967428084" />
-    <state x="510" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589966408708">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="510" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1589966408708" />
-    <state x="421" y="98" key="FileChooserDialogImpl" timestamp="1593163755574">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602889770091" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1602889770091">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="98" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593163755574" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1596139172575">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602889770091" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1602889770091">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1596139172575" />
-    <state width="1351" height="218" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1589982075846" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1596139172574">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602889770091" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1602889770091">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1596139172574" />
-    <state width="1351" height="218" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1589982075843" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1596139172573">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602889770091" />
+    <state width="1202" height="184" key="GridCell.Tab.1.bottom" timestamp="1601420084822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1596139172573" />
-    <state width="1351" height="218" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1589982075837" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1596139172575">
+    <state width="1202" height="184" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1601420084822" />
+    <state width="1202" height="184" key="GridCell.Tab.1.center" timestamp="1601420084821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1596139172575" />
-    <state width="1351" height="218" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1589982075844" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590614512659">
+    <state width="1202" height="184" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1601420084821" />
+    <state width="1202" height="184" key="GridCell.Tab.1.left" timestamp="1601420084821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1590614512659">
+    <state width="1202" height="184" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1601420084821" />
+    <state width="1202" height="184" key="GridCell.Tab.1.right" timestamp="1601420084821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1590614512659">
+    <state width="1202" height="184" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1601420084821" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1601419803938">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1590614512659">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590614512659" />
-    <state x="221" y="78" key="IDE.errors.dialog" timestamp="1590602079307">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="221" y="78" key="IDE.errors.dialog/0.0.1280.680@0.0.1280.680" timestamp="1590602079307" />
-    <state x="420" y="105" key="Maven.ArtifactSearchDialog" timestamp="1589980822325">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="420" y="105" key="Maven.ArtifactSearchDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980822325" />
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1591527765418">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1591527765418" />
-    <state x="422" y="276" key="com.intellij.ide.util.TipDialog/0.23.1440.877@0.23.1440.877" timestamp="1589982003063" />
-    <state x="397" y="112" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1590608149396">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="397" y="112" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.680@0.0.1280.680" timestamp="1590608149396" />
-    <state x="175" y="147" key="new project wizard" timestamp="1589967323280">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="175" y="147" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1589967323280" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1591183144402">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1591183144402" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1601419803938" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/FolkeRegister$All_in_FolkeRegister.ic" NAME="All in FolkeRegister Coverage Results" MODIFIED="1590766686961" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
